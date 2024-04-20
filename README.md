@@ -1,16 +1,20 @@
-# Ab_Wordle_Combos #
-Tkinter GUI to compute all the possible letter combinations for an incomplete Wordle guess. 
+# Ab's Wordle Combos #
+Tkinter GUI to generate all the possible letter combinations for an incomplete Wordle guess.
+
+<div align="center">
+  <img src="img1_Wordle_Combos_1.0.png" alt="img1_Wordle_Combos_1.0" width="428" height="540">
+</div>
 
 # Features #  
 - Generates all possible letter combinations for a five character word.
 - Specific letters can be excluded from the pool in case they've already been defined as not-in-the-word by Wordle.
 - Numbered outputs.
-- Output can be selected, copied and pasted.
-- Output can be saved locally as an .exe file.
+- Output can be selected, copied and pasted elsewhere.
+- Output can be saved locally as a .txt file.
 - Easily repeatable process.
   
 # Requirements #  
-For running the py file:
+For running the .py file:
 - Python 3.x
 - OS module.
 - Pillow module.
@@ -19,19 +23,19 @@ For running the py file:
 Else you can run the .exe file on windows 10 or above.
 
 # How to use #
-For running the py file:  
+For running the .py file:  
 1. Ensure Python 3.x and the required libraries are installed.
 2. Place the settings_icon.png & Wordle_Combos_Logo.ico in the same directory as the .py file.
 3. Run Wordle_Combos_1.0.py
 
 Else run the .exe file, eitherway:
 1. Enter five characters, use underscores '_' to be replaced for letters.
-2. If desired, click 'Exclude letters' and select those to not be used.
+2. Optionally, click 'Exclude letters' and select those to not be used.
 3. Click 'Generate'.
-4. If desired, click 'Save' to export the output as a .txt file to your computer.
+4. Optionally, click 'Save' to export the output as a .txt file to your computer.
 
 # Notes #
-- Inputs that aren't 5 characters aren't valid.
+- Inputs that aren't 5 characters aren't processed.
 - Compute time depends on your system's specs.
 - Excluded letters settings are saved even after closing the program, make sure to clear exclude letters between different inputs.
 
